@@ -1,0 +1,10 @@
+{
+  "name": "pnpm-problem",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rimraf node_modules apps/*/node_modules packages/*/node_modules apps/*/.nuxt"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
